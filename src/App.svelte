@@ -16,12 +16,12 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Shapes";
-  const DESCRTIPTION = "A collection of shapes on the blockchain";
-  const HEADER_TITLE = "shapes.xyz";
-  const HEADER_LINK = "https://lanablocks.xyz";
+  const TITLE = "Solana HODL Whales";
+  const DESCRTIPTION = "BREED | HODL | EARN";
+  const HEADER_TITLE = "Solana HODL Whales";
+  const HEADER_LINK = "https://solanahodlwhales.io/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/example.gif";
+  const IMAGE_LINK = "https://pbs.twimg.com/profile_images/1475595857810509824/be89Yyda_400x400.jpg";
   /***********************************/
 
   const { solana } = window as any;

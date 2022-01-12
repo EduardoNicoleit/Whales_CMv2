@@ -21,7 +21,7 @@
   const HEADER_TITLE = "Being the only source of life force which powers our whales, KRILL enables the whales to travel across the solaxy and is rightfully owned by every HODL whale.";
   const HEADER_LINK = "https://solanahodlwhales.io/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "https://pbs.twimg.com/profile_images/1475595857810509824/be89Yyda_400x400.jpg";
+  const IMAGE_LINK = "https://cdn.discordapp.com/attachments/923290088916529183/930780633729490995/bg.png";
   /***********************************/
 
   const { solana } = window as any;

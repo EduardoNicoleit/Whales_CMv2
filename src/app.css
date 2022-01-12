@@ -9,22 +9,22 @@
     background-color: aquamarine;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(https://cdn.discordapp.com/attachments/929106541829828608/930504381625929768/958361.jpg);
+    background-image: url(https://cdn.discordapp.com/attachments/923290088916529183/927741176839274536/WechatIMG27538.png);
 }
 
-
-}
 main {
     text-align: center;
     padding: 1em;
     margin: 0 auto;
 }
+
 .lds-hourglass {
     display: inline-block;
     position: relative;
     width: 80px;
     height: 80px;
 }
+
 .lds-hourglass:after {
     content: " ";
     display: block;
@@ -37,17 +37,16 @@ main {
     border-color: rgb(247, 142, 72) transparent rgb(228, 61, 61) transparent;
     animation: lds-hourglass 1.2s infinite;
 }
+
 @keyframes lds-hourglass {
     0% {
         transform: rotate(0);
         animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
     }
-    
     50% {
         transform: rotate(900deg);
         animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
-    
     100% {
         transform: rotate(1800deg);
     }

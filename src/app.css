@@ -99,12 +99,12 @@ main {
     line-height: 50px;
     border-radius: 50%;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(5, 179, 223);
     cursor: pointer;
     /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-    background: rgb(15, 204, 204);
+    background: rgb(255, 255, 255);
     transition: all 0.3s ease-in-out;
 }
 

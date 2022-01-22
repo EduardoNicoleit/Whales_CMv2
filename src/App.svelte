@@ -19,7 +19,7 @@
   const TITLE = "Solana HODL Whales";
   const DESCRTIPTION = "BREED | HODL | EARN";
   const HEADER_TITLE = "";
-  const HEADER_LINK = "https://solanahodlwhales.io/";
+  const HEADER_LINK = "";
   // Your image or GIF needs to be in the /public folder for this to work
   const IMAGE_LINK = "https://cdn.discordapp.com/attachments/930785564377088000/934467735436554330/FJiMNBJXMAIZSXp.jfif" ;
   /***********************************/

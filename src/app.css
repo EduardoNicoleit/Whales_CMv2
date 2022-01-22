@@ -74,7 +74,7 @@ main {
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
     /* clip-path: circle(25px at calc(0% + 45px) 45px); */
-    background: rgba(3, 153, 199, 0.473);
+    background: rgb(3, 153, 199);
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.4s ease-in-out;
 }
@@ -100,12 +100,12 @@ main {
     /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-    background: rgba(8, 193, 206, 0.281);
+    background: rgb(8, 193, 206);
     transition: all 0.3s ease-in-out;
 }
 
 #active:checked~.menu-btn {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 #active:checked~.menu-btn i:before {

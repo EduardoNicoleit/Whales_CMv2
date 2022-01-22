@@ -50,6 +50,7 @@ main {
     100% {
         transform: rotate(1800deg);
     }
+<<<<<<< HEAD
 }
 
 
@@ -134,4 +135,6 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
+=======
+>>>>>>> parent of a87de1a (Navbar)
 }

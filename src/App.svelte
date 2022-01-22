@@ -137,6 +137,22 @@
     >
       <!-- Top Bar -->
       <Header />
+      <div class="w3-top">
+        <div class="w3-row w3-padding w3-white">
+            <div class="w3-col s3">
+                <a href="#" class="w3-button w3-block w3-white" style="font-size:100%">Home</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#about" class="w3-button w3-block w3-white" style="font-size:100%">About</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#roadmap" class="w3-button w3-block w3-white" style="font-size:100%">Roadmap</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#Artwork" class="w3-button w3-block w3-white" style="font-size:100%">Artwork</a>
+            </div>
+        </div>
+    </div>
       <hr />
       <br />
       <!-- Main Body -->

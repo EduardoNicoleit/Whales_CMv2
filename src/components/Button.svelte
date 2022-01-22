@@ -140,7 +140,7 @@
       {#if isMinting}
         <span>Minting ...</span>
       {:else if mintSuccessful}
-        <span>Mint succesful! Mint another?</span>
+        <span>Mint succesful! Mint another Ser?</span>
       {:else}
         <span
           >Mint ({(

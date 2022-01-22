@@ -21,7 +21,7 @@
   const HEADER_TITLE = "solanahodlwhales.io";
   const HEADER_LINK = "https://solanahodlwhales.io/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "https://cdn.discordapp.com/attachments/930785564377088000/934467735436554330/FJiMNBJXMAIZSXp.jfif";
+  const IMAGE_LINK = "https://cdn.discordapp.com/attachments/930785564377088000/934467735436554330/FJiMNBJXMAIZSXp.jfif" ;
   /***********************************/
 
   const { solana } = window as any;
@@ -141,7 +141,7 @@
       <br />
       <!-- Main Body -->
       <div class="p-6">
-        <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
+        <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" style="border-radius: 25%;"/>
         <div
           class=" text-lg sm:text-2xl font-mono font-bold py-5 tracking-wider"
         >

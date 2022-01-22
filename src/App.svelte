@@ -136,9 +136,9 @@
    </div>
    <div class="content">
          <div class="title">
-   Fullscreen Overlay Navigation Bar</div>
+   </div>
    <p>
-   with HTML & CSS Neon Effect</p>
+   </p>
        </div>
      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">

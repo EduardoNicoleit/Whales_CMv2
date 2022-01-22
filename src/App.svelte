@@ -21,7 +21,7 @@
   const HEADER_TITLE = "solanahodlwhales.io";
   const HEADER_LINK = "https://solanahodlwhales.io/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "https://pbs.twimg.com/profile_images/1475595857810509824/be89Yyda_400x400.jpg";
+  const IMAGE_LINK = "https://cdn.discordapp.com/attachments/930785564377088000/934467735436554330/FJiMNBJXMAIZSXp.jfif";
   /***********************************/
 
   const { solana } = window as any;

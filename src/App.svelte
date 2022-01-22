@@ -180,7 +180,7 @@
         >
           {TITLE}
         </div>
-        <div class="text-sm sm:text-md font-semibold pb-5 text-gray-600 ">
+        <div class="text-sm sm:text-md font-semibold pb-6 text-gray-600 ">
           {DESCRTIPTION}
         </div>
         <Button {solana} {connection} />

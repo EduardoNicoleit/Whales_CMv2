@@ -156,13 +156,6 @@
    <li><a href="#">Feedback</a></li>
    </ul>
    </div>
-   <div class="content">
-         <div class="title">
-   Fullscreen Overlay Navigation Bar</div>
-   <p>
-   with HTML & CSS Neon Effect</p>
-   </div>
-
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}

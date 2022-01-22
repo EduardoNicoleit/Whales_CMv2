@@ -122,16 +122,12 @@
       <div class="lds-hourglass m-auto" />
     </div>
   {:else}
-    <!-- Menu Bar -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-   
+    <!-- Menu Bar -->   
        <input type="checkbox" id="active">
        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
        <div class="wrapper">
          <ul>
-   <li><a href="https://twitter.com/EduardoNicoleit">Home</a></li>
+   <li><a href="#">Home</a></li>
    <li><a href="#">About</a></li>
    <li><a href="#">Services</a></li>
    <li><a href="#">Gallery</a></li>

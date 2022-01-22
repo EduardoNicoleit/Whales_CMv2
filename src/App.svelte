@@ -123,26 +123,15 @@
     </div>
   {:else}
     <!-- Menu Bar -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <input type="checkbox" id="active">
-    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-    <div class="wrapper">
-      <ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#galery">Gallery</a></li>
-<li><a href="#feedback">Feedback</a></li>
-</ul>
-</div>
-<div class="content">
-      <div class="title">
-Fullscreen Overlay Navigation Bar</div>
-<p>
-with HTML & CSS Neon Effect</p>
-</div>
+    <body>
+      <nav class="navMenu">
+        <a href="#Home">Home</a>
+        <a href="#blog">Blog</a>
+        <a href="#work">Work</a>
+        <a href="#About">About</a>
+        <div class="dot"></div>
+      </nav>
+    </body>
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}

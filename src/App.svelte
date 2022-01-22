@@ -18,7 +18,7 @@
   // Customise the app by changing the following variables.
   const TITLE = "Solana HODL Whales";
   const DESCRTIPTION = "BREED | HODL | EARN";
-  const HEADER_TITLE = "solanahodlwhales.io";
+  const HEADER_TITLE = "";
   const HEADER_LINK = "https://solanahodlwhales.io/";
   // Your image or GIF needs to be in the /public folder for this to work
   const IMAGE_LINK = "https://cdn.discordapp.com/attachments/930785564377088000/934467735436554330/FJiMNBJXMAIZSXp.jfif" ;
@@ -170,7 +170,7 @@
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}
-        class="text-white tracking-widest underline underline-offset-4 decoration-2 font-mono"
+        class="text-blue tracking-widest underline underline-offset-4 decoration-2 font-mono"
         >{HEADER_TITLE}</a
       >
     {/if}

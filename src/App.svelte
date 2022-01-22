@@ -123,15 +123,13 @@
     </div>
   {:else}
     <!-- Menu Bar -->
-    <body>
-      <nav class="navMenu">
-        <a href="#Home">Home</a>
-        <a href="#blog">Blog</a>
-        <a href="#work">Work</a>
-        <a href="#About">About</a>
-        <div class="dot"></div>
-      </nav>
-    </body>
+    <nav class="navMenu">
+      <a href="#home">Home</a>
+      <a href="#blog">Blog</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <div class="dot"></div>
+    </nav>
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}

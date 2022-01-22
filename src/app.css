@@ -75,6 +75,9 @@ main {
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
     /* clip-path: circle(25px at calc(0% + 45px) 45px); */
     background: rgb(3, 153, 199);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(https://cdn.discordapp.com/attachments/930785564377088000/934495795976237216/bg01.png);
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.5s ease-in-out;

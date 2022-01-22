@@ -104,7 +104,7 @@ main {
     /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-    background: rgb(3, 233, 250);
+    background: rgb(0, 200, 207);
     /* circle */
     transition: all 0.3s ease-in-out;
 }

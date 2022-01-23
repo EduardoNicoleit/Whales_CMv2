@@ -151,7 +151,6 @@
    <li><a href="#">Feedback</a></li>
    </ul>
    </div>
-
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}

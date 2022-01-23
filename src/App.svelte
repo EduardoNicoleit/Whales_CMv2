@@ -5,7 +5,6 @@
   import { fade } from "svelte/transition";
   import Button from "./components/Button.svelte";
   import Header from "./components/CardHeader.svelte";
-
   import { candyMachineState, userState } from "./lib/store";
   import {
     getCandyMachineState,
@@ -13,7 +12,6 @@
     getUserBalance,
     existsOwnerSPLToken,
   } from "./lib/state-helpers";
-
   /***********************************/
   // Customise the app by changing the following variables.
   const TITLE = "Solana HODL Whales";
@@ -23,22 +21,18 @@
   // Your image or GIF needs to be in the /public folder for this to work
   const IMAGE_LINK = "https://cdn.discordapp.com/attachments/930785564377088000/934504136135823440/slowgif.gif" ;
   /***********************************/
-
   const { solana } = window as any;
   const rpcUrl = import.meta.env.VITE_APP_SOLANA_RPC_HOST?.toString();
   const cluster = import.meta.env.VITE_APP_SOLANA_NETWORK?.toString();
   const candyMachineId = import.meta.env.VITE_APP_CANDY_MACHINE_ID?.toString();
   const opts = { preflightCommitment: "processed" };
-
   let siteLoading = true;
   let errorOcurred = false;
   let connection: Connection;
   let provider: Provider;
   let candyMachinePublicKey: web3.PublicKey;
-
   $: itemsRedeemed = $candyMachineState?.state.itemsRedeemed;
   $: itemsAvailable = $candyMachineState?.state.itemsAvailable;
-
   function checkEnvironmentVariables() {
     // Check if populated
     if (!rpcUrl || !candyMachineId || !cluster) {
@@ -61,14 +55,12 @@
     }
     return false;
   }
-
   onMount(async () => {
     // Check if environement variables are populated
     errorOcurred = checkEnvironmentVariables();
     if (errorOcurred) {
       return;
     }
-
     // If env variables populated, create provider, PK and connection
     connection = new Connection(rpcUrl);
     provider = new Provider(
@@ -77,13 +69,11 @@
       opts.preflightCommitment as web3.ConfirmOptions
     );
     candyMachinePublicKey = new web3.PublicKey(candyMachineId);
-
     // Get candy machine state
     $candyMachineState = await getCandyMachineState(
       candyMachinePublicKey,
       provider
     );
-
     // Establish connection to wallet
     if (solana?.isPhantom) {
       $userState.walletPublicKey = await checkWalletConnected(solana);
@@ -101,12 +91,10 @@
         );
       }
     }
-
     // Stop loading
     siteLoading = false;
   });
 </script>
-
 <main class="h-screen">
   <!-- Error section -->
   {#if errorOcurred}
@@ -140,6 +128,10 @@
    <p>
    </p>
        </div>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
        <input type="checkbox" id="active">
        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
        <div class="wrapper">
@@ -175,11 +167,10 @@
         >
           {TITLE}
         </div>
-        <div class="text-sm sm:text-md font-semibold pb-5 text-gray-600 ">
+        <div class="text-sm sm:text-md font-semibold pb-6 text-gray-600 ">
           {DESCRTIPTION}
         </div>
         <Button {solana} {connection} />
-
         <div class=" tracking-widest font-bold text-sm pt-3 text-gray-400">
           {itemsRedeemed}/{itemsAvailable} claimed
         </div>
